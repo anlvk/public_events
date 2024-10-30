@@ -1,0 +1,23 @@
+uuid: 03b993e1-f72b-4dd9-80c7-31f1e17f6fd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_party_number
+    - node.type.event
+id: node.event.field_party_number
+field_name: field_party_number
+entity_type: node
+bundle: event
+label: 'Party number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: 1000
+  prefix: ''
+  suffix: ''
+field_type: integer
