@@ -1,0 +1,45 @@
+adding:
+  dependencies:
+    config:
+      - field.field.node.event.field_end_date
+      - field.field.node.event.field_location
+      - field.field.node.event.field_party_number
+      - field.field.node.event.field_start_date
+      - field.field.node.event.field_status
+    module:
+      - datetime
+  content:
+    field_end_date:
+      type: datetime_default
+      weight: 124
+      region: content
+      settings: {  }
+      third_party_settings: {  }
+    field_location:
+      type: string_textfield
+      weight: 125
+      region: content
+      settings:
+        size: 60
+        placeholder: ''
+      third_party_settings: {  }
+    field_party_number:
+      type: number
+      weight: 126
+      region: content
+      settings:
+        placeholder: ''
+      third_party_settings: {  }
+    field_start_date:
+      type: datetime_default
+      weight: 123
+      region: content
+      settings: {  }
+      third_party_settings: {  }
+    field_status:
+      type: options_select
+      weight: 127
+      region: content
+      settings: {  }
+      third_party_settings: {  }
+removing: {  }

@@ -1,0 +1,10 @@
+adding:
+  complete_list:
+    - field.storage.node.field_end_date
+    - field.storage.node.field_location
+    - field.storage.node.field_party_number
+    - field.storage.node.field_start_date
+    - field.storage.node.field_status
+  partial_list:
+    - config_split.config_split.public_events_module
+removing: {  }

@@ -1,0 +1,15 @@
+adding:
+  dependencies:
+    config:
+      - field.field.node.event.field_end_date
+      - field.field.node.event.field_location
+      - field.field.node.event.field_party_number
+      - field.field.node.event.field_start_date
+      - field.field.node.event.field_status
+  hidden:
+    field_end_date: true
+    field_location: true
+    field_party_number: true
+    field_start_date: true
+    field_status: true
+removing: {  }

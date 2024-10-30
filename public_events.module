@@ -1,0 +1,9 @@
+<?php
+
+function public_events_entity_mode_alter(&$view_mode, \Drupal\Core\Entity\EntityInterface $entity){
+  dump($view_mode);
+}
+
+function public_events_entity_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode){
+
+}
