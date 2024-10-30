@@ -3,3 +3,6 @@ type: module
 description: Manage public events
 core_version_requirement: ^10
 package: Custom
+dependencies:
+  - drupal:config_filter
+  - drupal:config_split
